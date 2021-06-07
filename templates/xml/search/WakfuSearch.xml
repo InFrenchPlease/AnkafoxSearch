@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <!-- Created on Sun, 06 Jun 2021 23:56:32 GMT -->
+  <ShortName>Wakfu Search</ShortName>
+  <Description>A tool that allows you to search Wakfu for the encyclopedia, the bestiary, and more... In all simplicity!</Description>
+  <Url type="text/html" method="get" template="https://www.wakfu.com/fr/recherche?q={searchTerms}"/>
+  <Image width="16" height="16">https://raw.githubusercontent.com/newlynameds/newlynameds/master/images/custom/firefox/search/wakfu.png</Image>
+  <Developer>Lou</Developer>
+  <InputEncoding>UTF-8</InputEncoding>
+  <moz:SearchForm>https://www.wakfu.com/fr/recherche?q={searchTerms}</moz:SearchForm>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://mycroftproject.com/updateos.php/id0/wakfu.xml"/>
+</OpenSearchDescription>
